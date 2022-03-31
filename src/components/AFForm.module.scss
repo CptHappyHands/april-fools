@@ -1,0 +1,96 @@
+.back {
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  min-height: 50vh;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  font-size: 3vh;
+}
+
+.title {
+  font-size: 3vh;
+  margin: 1rem;
+}
+
+.innerContainer {
+  background: hsl(210, 16%, 93%);
+  border-radius: 0.25rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  width: 1200px;
+}
+
+.input {
+  width: 200px;
+  height: 200px;
+}
+
+.decklist {
+  font-size: 3vh;
+  margin: 1rem;
+}
+
+.dark .innerContainer {
+  background: hsl(210, 10%, 23%);
+}
+
+.loading {
+  margin: 2rem;
+}
+
+.alert {
+  margin-bottom: 1rem;
+}
+
+.icon {
+  color: #000;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+}
+
+.body {
+  border-top: 1px solid #ced4da;
+}
+
+.number {
+  color: red;
+  font-size: 7vh;
+}
+
+.progressBar {
+  width: 100%;
+  background-color: grey;
+  border-radius: 25px;
+  visibility: hidden;
+}
+
+.bar {
+  width: 0%;
+  height: 30px;
+  background-color: green;
+  border-radius: 25px;
+  visibility: hidden;
+}
+
+.footer {
+  margin-top: 5%;
+}
+
+.footer:hover {
+  color: red;
+}
