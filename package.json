@@ -19,7 +19,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "aws s3 cp --recursive build/ s3://power-level/"
+    "deploy": "aws s3 cp --recursive build/ s3://power-level/ && aws cloudfront create-invalidation --distribution-id E28TELB5D7VBCS --paths /*"
   },
   "eslintConfig": {
     "extends": [
