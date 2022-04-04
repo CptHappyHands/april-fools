@@ -53,10 +53,12 @@ const AFForm = () => {
         // });
         let z = document.getElementById("Power");
         let edhrec = document.getElementById("footer");
+        let joke = document.getElementById("joke");
 
         if (!isLoading) {
           z.innerText = "Your deck is a 7";
           edhrec.innerText = "Return to EDHREC";
+          joke.innerText = "This was part of EDHREC's 2022 April Fools Joke";
         }
       }
       let y = document.getElementById("loading");
@@ -130,6 +132,7 @@ const AFForm = () => {
             <a href="https://edhrec.com">
               <div id="footer" className={styles.footer}></div>
             </a>
+            <div id="joke"></div>
           </div>
         </div>
       </div>
